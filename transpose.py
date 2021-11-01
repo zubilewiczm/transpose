@@ -865,6 +865,8 @@ class Game:
                         print()
                     elif inp == "?again":
                         pass
+                    elif inp == "?debug":
+                        print("... {}".format(data))
                     elif inp == "?help":
                         print("...other commands: ?again ?stats ?where ?quit")
                     else:
@@ -1120,7 +1122,7 @@ ic_set_perfects = [P4,P5]
 ic_set_thirds = [m3,M3]
 ic_set_sixths = [m6,M6]
 ic_set_leaps = [m3,M3,m6,M6]
-ic_set_all = [m2,M2,m3,M3,P4,D5,P5,m6,M6,m7,M7,P8]
+ic_set_all = [m2,M2,m3,M3,P4,d5,P5,m6,M6,m7,M7,P8]
 
 pc_set_diatonic = [C,D,E,F,G,A,B]
 pc_set_with_sharps = [C,Cs,D,Ds,E,F,Fs,G,Gs,A,As,B]
